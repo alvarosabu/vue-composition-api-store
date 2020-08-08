@@ -1,0 +1,3 @@
+.card {
+  @apply max-w-lg w-full rounded-lg shadow-lg p-6;
+}
