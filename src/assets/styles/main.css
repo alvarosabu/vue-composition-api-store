@@ -1,0 +1,23 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+@import './fonts.css';
+
+@import './button.css';
+@import './card.css';
+
+body {
+  background-color: #fcfcfc;
+}
+
+.container {
+  @apply mx-auto px-4;
+}
+
+.page {
+  @apply pt-16 overflow-hidden  min-h-screen;
+}
